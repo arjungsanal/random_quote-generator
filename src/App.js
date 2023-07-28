@@ -11,6 +11,7 @@ function App() {
       setQuotes(data[randomNum]);
     }))
   }
+// This is a program for quotes
 
   useEffect(()=>{
     getQuote();
