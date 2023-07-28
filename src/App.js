@@ -12,6 +12,8 @@ function App() {
     }))
   }
 
+// This is a program for quote generation 
+
   useEffect(()=>{
     getQuote();
   },[])
