@@ -2,6 +2,7 @@ import React,{ useState,useEffect } from "react";
 import './App.css';
 
 function App() {
+  //I am Batman
   const[quotes,setQuotes]=useState("");
   const getQuote= ()=>{
     fetch("https://type.fit/api/quotes")
