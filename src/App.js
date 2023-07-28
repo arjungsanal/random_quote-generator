@@ -11,7 +11,7 @@ function App() {
       setQuotes(data[randomNum]);
     }))
   }
-
+// This is a comment
   useEffect(()=>{
     getQuote();
   },[])
